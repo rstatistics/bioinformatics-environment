@@ -2,7 +2,7 @@
 Describe the environment used for bioinformatics
 
 ## conda environment
-###>>>>set conda channels
+>###set conda channels
 ```
 conda config --add channels conda-forge
 conda config --add channels bioconda
