@@ -27,3 +27,12 @@ pip install --proxy http://[username]:[password]@[proxy-server]:[port] <pkgname>
 export http_proxy=http://[username]:[password]@[proxy-server]:[port]
 export https_proxy=http://[username]:[password]@[proxy-server]:[port]
 ```
+
+## git environment
+### set git proxy
+```
+git config --global http.proxy http://[username]:[password]@[proxy-server]:[port]
+git config --global https.proxy http://[username]:[password]@[proxy-server]:[port]
+```
+
+
